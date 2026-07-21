@@ -15,17 +15,17 @@ if (score >= 70 && score <= 100){
 }else if (score >= 50 && score <= 59){
     console.log("C");
 }else {
-       console.log("F")
+       console.log("F");
 }
 
 let num1 = 2;
 let num2 = 3;
 if (num1 > num2){
-    console.log("num1 + is the largest")
+    console.log("num1 + is the largest");
 }else if (num2 >  num1){
-    console.log("num2 + is the largest")
+    console.log("num2 + is the largest");
 }else{
-    console.log("Both are equal")
+    console.log("Both are equal");
 }
 
 let username = "admin";
@@ -33,7 +33,7 @@ let password = "1234"
 if (username === "admin" && password === "1234") {
     console.log("Login Successful")
 }else{
-    console.log("Invalid username or password")
+    console.log("Invalid username or password");
 }
 
 
@@ -49,7 +49,7 @@ for(let x = 1; x <= 25; x += 2){
     console.log(x);
 }
 for (let y = 1; y <= 12; y++){
-    console.log(`7 * ${y} = ${7 * y}`
+    console.log(`7 * ${y} = ${7 * y}`);
 }
 
     
